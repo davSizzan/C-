@@ -1,0 +1,116 @@
+﻿@model IEnumerable<BTLWeb.Models.tblSanPham>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">Trang chủ</li>
+        <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
+        <li class="breadcrumb-item active" aria-current="page">Danh sách sản phẩm</li>
+    </ol>
+</nav>
+<p class=" btn-link">
+    @Html.ActionLink("Thêm mới", "DangSanPham")
+</p>
+<table class="table table-hover">
+    <tr>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.tblDanhMuc.TenDanhMuc)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.SanPhamID)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.TenSanPham)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.XuatXu)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.MoTa)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.GiaBan)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.SoLuongTonTon)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.SoLuotXem)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.ConHang)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.BanChay)
+        </th>
+        <th scope="col">
+            @Html.DisplayNameFor(model => model.HienThi)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td class="col-lg-1">
+                @Html.DisplayFor(modelItem => item.tblDanhMuc.TenDanhMuc)
+            </td>
+            <td class="col-lg-4">
+                @Html.DisplayFor(modelItem => item.SanPhamID)
+            </td>
+            <td class="col-lg-4">
+                @Html.DisplayFor(modelItem => item.TenSanPham)
+            </td>
+            <td class="col-lg-5">
+                @Html.DisplayFor(modelItem => item.XuatXu)
+            </td>
+            <td class="col-lg-5 ">
+                @Html.DisplayFor(modelItem => item.MoTa)
+            </td>
+            <td class="col-lg-7">
+                @Html.DisplayFor(modelItem => item.GiaBan)
+            </td>
+            <td class="col-lg-8">
+                @Html.DisplayFor(modelItem => item.SoLuongTonTon)
+            </td>
+            <td class="col-lg-9">
+                @Html.DisplayFor(modelItem => item.SoLuotXem)
+            </td>
+            <td class="col-lg-10">
+                @Html.DisplayFor(modelItem => item.ConHang)
+            </td>
+            <td class="col-lg-11">
+                @Html.DisplayFor(modelItem => item.BanChay)
+            </td>
+            <td class="col-lg-12">
+                @Html.DisplayFor(modelItem => item.HienThi)
+            </td>
+            <td>
+            <td>
+                <a href="/Admin/Product/DangSanPham">
+                    <input type="button" value="Sửa" class="edit btn-primary"
+                           style="border-radius: 5px">
+                </a>
+                <input type="button" value="Xóa" class="btn-danger" onclick="SomeDeleteRowFunction()" style="border-radius: 5px">
+            </td>
+            @*@Html.ActionLink("Edit", "Edit", new { id = item.SanPhamID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.SanPhamID })*@
+            
+        </tr>
+    }
+
+</table>
+<script>
+    function SomeDeleteRowFunction() {
+        var td = event.target.parentNode;
+        var tr = td.parentNode;
+        tr.parentNode.removeChild(tr);
+    }
+   
+
+</script>
+

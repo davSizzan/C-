@@ -1,0 +1,59 @@
+﻿@using BTLWeb.Models
+@model List<GioHang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@Html.BeginForm()
+{
+<table class="table">
+    <tr>
+        <th>
+            Ảnh
+        </th>
+        <th>
+            Tên sản phẩm
+        </th>
+        <th>
+            Số lượng
+        </th>
+        <th>
+            Đơn giá
+        </th>
+        <th>
+            Thành tiền
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src="Images/@item.sHinhAnh" alt="Sản phẩm 1" class="img-responsive">
+            </td>
+            <td>
+                <h4>@item.sTenSP</h4>
+            </td>
+            <td data-th="Price">
+                @item.dDonGia đ
+            </td>
+            <td>
+                <input class="form-control text-center" name="soluong" value="@item.iSoLuong" type="number">
+            </td>
+            <td data-th="Subtotal" class="text-center">
+                @item.dThanhTien  đ
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", item.sMaSP);
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Thanhtoan", "thanhtoan", Model.Count )
+
+

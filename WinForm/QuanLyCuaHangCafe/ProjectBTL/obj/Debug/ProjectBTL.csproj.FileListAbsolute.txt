@@ -1,0 +1,98 @@
+D:\C#_.Net\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe.config
+D:\C#_.Net\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe
+D:\C#_.Net\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.pdb
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.AssemblyReference.cache
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Form1.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Properties.Resources.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.GenerateResource.cache
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.CoreCompileInputs.cache
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.exe
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.pdb
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.Home.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.BaoCao.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyBanHang.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.HeThong.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.DanhMuc.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\bin\Debug\FontAwesome.Sharp.dll
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDangNhap.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDShanghoaSearch.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.KhuyenMai.resources
+D:\C#_.Net\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyMuaHang.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe.config
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.pdb
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDangNhap.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDSHangHoa.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.BaoCao.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.DanhMuc.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.HeThong.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.Home.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.KhuyenMai.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyBanHang.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyMuaHang.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Properties.Resources.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.CopyComplete
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.exe
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.pdb
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.TrangChu.resources
+C:\Users\Admin\Downloads\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDSHangHoaSearch.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe.config
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.pdb
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\FontAwesome.Sharp.dll
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.AssemblyReference.cache
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDangNhap.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDSHangHoaSearch.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.TrangChu.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.BaoCao.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.DanhMuc.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.Home.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.KhuyenMai.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyBanHang.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyMuaHang.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Properties.Resources.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.GenerateResource.cache
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.CoreCompileInputs.cache
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.exe
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.pdb
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormDanhSachNhanVien.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormThemNV.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormBangGiaSP.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDoiTac.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormHoaDonBanHang.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormHoaDonNhapHang.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.CopyComplete
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormThemMoiHangHoa.resources
+D:\C#_.Net\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormChiTietHDN.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe.config
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.exe
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\ProjectBTL.pdb
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormBangGiaSP.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormChiTietHDN.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDoiTac.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDSHangHoaSearch.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormHoaDonBanHang.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormHoaDonNhapHang.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormThemMoiHangHoa.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormThemNV.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\BTL_LTTQ_K60.FormDangNhap.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.FormDanhSachNhanVien.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.TrangChu.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.BaoCao.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.DanhMuc.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.Home.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.KhuyenMai.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyBanHang.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Main.QuanLyMuaHang.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.Properties.Resources.resources
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.csproj.CopyComplete
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.exe
+C:\Users\Admin\Downloads\Bài Tập Lớn\ProjectBTL\ProjectBTL\obj\Debug\ProjectBTL.pdb

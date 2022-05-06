@@ -1,0 +1,320 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{908455D6-8CD4-49E3-8CBE-6E99DDE6949B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BaiTapLon</RootNamespace>
+    <AssemblyName>BaiTapLon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.8\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.5.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Cors, Version=5.2.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.8\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.8\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.8\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Site.css" />
+    <Content Include="Frontend\Admin\Content\login.css" />
+    <Content Include="Frontend\Admin\Content\style.css" />
+    <Content Include="Frontend\Admin\Customers.html" />
+    <Content Include="Frontend\Admin\index.html" />
+    <Content Include="Frontend\Admin\Information.html" />
+    <Content Include="Frontend\Admin\login.html" />
+    <Content Include="Frontend\Admin\Products.html" />
+    <Content Include="Frontend\projcet-master\61HT.html" />
+    <Content Include="Frontend\projcet-master\css\1.css" />
+    <Content Include="Frontend\projcet-master\css\element.css" />
+    <Content Include="Frontend\projcet-master\css\giohang.css" />
+    <Content Include="Frontend\projcet-master\css\grid.css" />
+    <Content Include="Frontend\projcet-master\css\lienhe.css" />
+    <Content Include="Frontend\projcet-master\css\product.css" />
+    <Content Include="Frontend\projcet-master\css\queries.css" />
+    <Content Include="Frontend\projcet-master\css\style.css" />
+    <Content Include="Frontend\projcet-master\element\accessories.html" />
+    <Content Include="Frontend\projcet-master\element\adidas.html" />
+    <Content Include="Frontend\projcet-master\element\Clothing.html" />
+    <Content Include="Frontend\projcet-master\element\giohang.html" />
+    <Content Include="Frontend\projcet-master\element\lienhe.html" />
+    <Content Include="Frontend\projcet-master\element\nike.html" />
+    <Content Include="Frontend\projcet-master\element\product1.html" />
+    <Content Include="Frontend\projcet-master\element\sale-off.html" />
+    <Content Include="Frontend\projcet-master\element\sneaker.html" />
+    <Content Include="Frontend\projcet-master\element\thanhtoan.html" />
+    <Content Include="Frontend\projcet-master\images\631A1434-600x400.jpg" />
+    <Content Include="Frontend\projcet-master\images\631A1518-600x400.jpg" />
+    <Content Include="Frontend\projcet-master\images\631A5410-2-300x300.jpg" />
+    <Content Include="Frontend\projcet-master\images\631A9145-600x900.jpg" />
+    <Content Include="Frontend\projcet-master\images\631A9170-600x900.jpg" />
+    <Content Include="Frontend\projcet-master\images\631A9204-600x900.jpg" />
+    <Content Include="Frontend\projcet-master\images\631A9245-600x900.jpg" />
+    <Content Include="Frontend\projcet-master\images\631A9769-600x900.jpg" />
+    <Content Include="Frontend\projcet-master\images\ADIDAS-TOKIO-SOLAR-HU-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\adidas.png" />
+    <Content Include="Frontend\projcet-master\images\ADILETTE-AQUA-SLIDES-F35537-6-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Air-Jordan-1-Mid-5-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Air-Jordan-1-Mid-University-Gold-3-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Air-Jordan-1-Mid-“Banned”-7-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\aiRmax.jpg" />
+    <Content Include="Frontend\projcet-master\images\Big-Ball-Bundle-10-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Big-Ball-Chunky-32SHC2011-12-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Camiseta-Nike-Dri-FIT-Tortoise-Masculina-3-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\CHAMPION-MEN_S-SPLIT-SCRIPT-SUPER-SLIDES-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\CHECKERBOARD-SLIP-ON-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\COACH-F80384-IMCBI-4-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\CROCS-SHOES-06-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\CROCS-SHOES-WC-01-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\didas-Ultra-Boost-DNA-Multi-Color-5-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\FW6375-SL-7600-3-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\giay-adidas-eqt-cushion-adv-9-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\giay-nike-air-zoom-mariah-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Giay_UltraBoost_21_Be_FY0399_01_standard-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Giày-Nike-Air-Jordan-1-5.jpg" />
+    <Content Include="Frontend\projcet-master\images\header1.png" />
+    <Content Include="Frontend\projcet-master\images\header2.png" />
+    <Content Include="Frontend\projcet-master\images\header3.png" />
+    <Content Include="Frontend\projcet-master\images\header4.png" />
+    <Content Include="Frontend\projcet-master\images\icon.jpg" />
+    <Content Include="Frontend\projcet-master\images\IMG_0533-2-2-600x400.jpg" />
+    <Content Include="Frontend\projcet-master\images\IMG_1610-600x400.jpg" />
+    <Content Include="Frontend\projcet-master\images\Jordan-1-Low-Canyon-Rust-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Jordan-1-Mid-SE-Multi-Color-7-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Logo-TSH-240x90.png" />
+    <Content Include="Frontend\projcet-master\images\Nike-Air-Force-1-Crate-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Air-Force-1-Pixel-1-1.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Benassi-JDI-TXT-SE-03-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Dri-FIT-_Tortoise_-CZ9827-480-Royal-Blue-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Sportswear-Club-T-shirt-13-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Sportswear-Heritage86-Futura-Washed-2-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Sportswear-Heritage86-Futura-Washed-Hat-Black-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Sportswear-T-shirt-9-2-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Victori-One-15-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\Nike-Victori-One-6-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\NIKE-WOVEN-PANTS-2-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\NIKE-X-STUSSY-BENASSI-SLIDES-DC5239-001-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\nike.png" />
+    <Content Include="Frontend\projcet-master\images\NMD_C2-SHOES-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\PLAYBALL-MONO-DENIM-NEW-YORK-YANKEES-32SHPM011-50U-7-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\puma.jpg" />
+    <Content Include="Frontend\projcet-master\images\SL-72-SHOES-2-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\SUPERSTAR-SLIP-ON-SHOES-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-20-SHOES-10-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-20-SHOES-11.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-20-SHOES-12.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-20-SHOES-13.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-20-SHOES-14.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-20-SHOES-15-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-20-SHOES-17.jpg" />
+    <Content Include="Frontend\projcet-master\images\UltraBOOST-21-3.jpg" />
+    <Content Include="Frontend\projcet-master\images\ULTRABOOST-5.0-DNA-SHOES-8-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\images\van.jpg" />
+    <Content Include="Frontend\projcet-master\images\Wmns-Air-Jordan-1-Mid-SE-_LetHerMan_-1-600x600.jpg" />
+    <Content Include="Frontend\projcet-master\jquery\accessories.js" />
+    <Content Include="Frontend\projcet-master\jquery\adidas.js" />
+    <Content Include="Frontend\projcet-master\jquery\clothing.js" />
+    <Content Include="Frontend\projcet-master\jquery\giohang.js" />
+    <Content Include="Frontend\projcet-master\jquery\home.js" />
+    <Content Include="Frontend\projcet-master\jquery\nike.js" />
+    <Content Include="Frontend\projcet-master\jquery\product1.js" />
+    <Content Include="Frontend\projcet-master\jquery\sale-off.js" />
+    <Content Include="Frontend\projcet-master\jquery\snaker.js" />
+    <Content Include="Frontend\projcet-master\js\arrow.js" />
+    <Content Include="Frontend\projcet-master\js\Login.js" />
+    <Content Include="Frontend\projcet-master\js\main.js" />
+    <Content Include="Frontend\projcet-master\js\number.js" />
+    <Content Include="Frontend\projcet-master\js\search.js" />
+    <Content Include="Frontend\projcet-master\js\sign-in.js" />
+    <Content Include="Frontend\projcet-master\js\slider.js" />
+    <Content Include="Frontend\projcet-master\js\zoom-image.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\GioHangController.cs" />
+    <Compile Include="Controllers\KhachHangController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Data\IDKhach.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DBShop.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBShop.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\DBShop.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DBShop.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\DBShop.dbml.layout">
+      <DependentUpon>DBShop.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54848</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44315/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>https://localhost:44315/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

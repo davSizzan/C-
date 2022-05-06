@@ -1,0 +1,126 @@
+﻿@using BTLWeb.Models
+@using PagedList.Mvc
+@model PagedList.IPagedList<tblSanPham>
+<div class="slider" style="box-sizing:border-box;">
+    <div class="slider_imgs">
+        <input type="radio" name="inputslider" id="img1">
+        <input type="radio" name="inputslider" id="img2">
+        <img src="~/Images/slide1.png" alt="img1" class="imgslider1">
+        <img src="~/Images/slide2.png" alt="img2" class="imgslider2">
+        <img src="~/Images/slide3.png" alt="img2" class="imgslider3">
+    </div>
+    <div class="lableslider">
+        <label for="img1"></label>
+        <label for="img2"></label>
+        <label for="img3"></label>
+    </div>
+</div>
+
+<div style="text-align: center;">
+    <h2 class="place__btn bg__color--hongkong">
+        Sản phẩm bán chạy
+    </h2>
+</div>
+
+<div class="container">
+    <div class="package-menu m-b-60">
+        <div class="row">
+            @{
+                int i = 0;
+                foreach (var item in Model)
+                {
+                    i++;
+                    <div class="col l-3 m-m-b-20 c-12">
+                        <div class="place__item" style="height : 500px;">
+                            <div class="place__bg">
+                                <img src="@Url.Content("~/Images/"+item.Image)" style="width: 100% ; height: 250px ">
+
+                            </div>
+                            <div class="place__info" style="padding: 0; text-align:center ">
+                                <header class="place__header" style="overflow: hidden">
+                                    <h3 class="place__heading">@item.TenSanPham</h3>
+                                    <p class="place__location" style="height: 46px; text-overflow: ellipsis;">
+                                        <i class="ri-map-pin-line"></i>@item.MoTa
+                                    </p>
+                                </header>
+                                <div class="place__price" style="padding: 20px;">
+                                    <div class="place__price-right">
+                                        <span class="" style="color: red; font-size: 23px; padding: 20px;">Giá:</span>
+                                        <span class="place__price-current">@(item.GiaBan*10) đ</span>
+                                    </div>
+                                </div>
+                                <footer class="place__footer">
+                                    <div class="place__btn bg__color--berlin"> @Html.ActionLink("Chi tiết", "Index", "SanPham") </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                    if (i % 4 == 0)
+                    {
+                        <div style="clear:both"></div>
+                    }
+                    if (i == 8)
+                    {
+                        break;
+                    }
+                }
+
+            }
+
+        </div>
+
+    </div>
+</div>
+
+
+<div style="text-align: center;">
+    <h2 class="place__btn bg__color--berlin">
+        Tất cả sản phẩm
+    </h2>
+</div>
+
+<div class="container">
+    <div class="package-menu m-b-60">
+        <div class="row">
+            @{
+                int n = 0;
+                foreach (var item in Model)
+                {
+                    i++;
+                    <div class="col l-3 m-m-b-20 c-12">
+                        <div class="place__item" style="height : 500px;">
+                            <div class="place__bg">
+                                <img src="@Url.Content("~/Images/"+item.Image)" style="width: 100% ; height: 250px ">
+
+                            </div>
+                            <div class="place__info" style="padding: 0; text-align:center ">
+                                <header class="place__header" style="overflow: hidden">
+                                    <h3 class="place__heading">@item.TenSanPham</h3>
+                                    <p class="place__location" style="height: 46px; text-overflow: ellipsis;">
+                                        <i class="ri-map-pin-line"></i>@item.MoTa
+                                    </p>
+                                </header>
+                                <div class="place__price" style="padding: 20px;">
+                                    <div class="place__price-right">
+                                        <span class="" style="color: red; font-size: 23px; padding: 20px;">Giá:</span>
+                                        <span class="place__price-current"> @(item.GiaBan * 10) đ</span>
+                                    </div>
+                                </div>
+                                <footer class="place__footer">
+                                    <div class="place__btn bg__color--berlin"> @Html.ActionLink("Chi tiết", "Index", "SanPham") </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                    if (n % 4 == 0)
+                    {
+                        <div style="clear:both"></div>
+                    }
+
+                }
+            }
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/icon.jpg" type="image/png" />
+    <link rel="stylesheet" href="../css/giohang.css">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>GIỎ HÀNG</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header grid wide">
+            <a href="../61HT.html"><img class="logo" src="../images/Logo-TSH-240x90.png" alt="logo"></a>
+            <ul class="nav-bar">
+                <li><a href="./sneaker.html">Sneaker<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-nav nav">
+                        <li>
+                            <ul>
+                                <li><a href="./adidas.html">ADIDAS</a></li>
+                                <li><a href="#">PUMA</a></li>
+                                <li><a href="./nike.html">NIKE</a></li>
+                                <li><a href="#">VANS</a></li>
+                                <li><a href="#">AIR MAX</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="./adidas.html"> COLLECTIONS</a></li>
+                                <li><a href="#">ULTRA BOOST</a></li>
+                                <li><a href="./nike.html">STAN SMITH</a></li>
+                                <li><a href="#">SUPERSTAR</a></li>
+                                <li><a href="#">NMD</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./accessories.html">accessories<i class="fa fa-angle-down"></i></a>
+                                    <ul class="sub-nav nav-2">
+                                        <li>
+                                            <ul>
+                                                <li><a href="#">VỚ</a></li>
+                                                <li><a href="#">NÓN</a></li>
+                                                <li><a href="#">PHỤ KIỆN</a></li>
+                                                <li><a href="#">DÉP</a></li>
+                                                <li><a href="#">BALO</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">TÚI XÁCH</a></li>
+                                                <li><a href="#">YAMAMOTO</a></li>
+                                                <li><a href="#">NEW BALANCE</a></li>
+                                                <li><a href="#">CHÍNH HÃNG</a></li>
+                                                <li><a href="#">FILA</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">CHÍNH HÃNG</a></li>
+                                                <li><a href="#">YOHJI</a></li>
+                                                <li><a href="#">ADIDAS</a></li>
+                                                <li><a href="#">PHỤ KIỆN</a></li>
+                                                <li><a href="#">YAMAMOTO</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./Clothing.html">clothing<i class="fa fa-angle-down"></i></a>
+                                                    <ul class="sub-nav nav-3">
+                                                        <li>
+                                                            <ul>
+                                                                <li><a href="#">ÁO KHOÁC</a></li>
+                                                                <li><a href="#">ÁO THUN</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="./sale-off.html">sale off</a></li>
+                                                <li><a href="./lienhe.html">LIÊN HỆ</a></li>
+                                            </ul>
+                                            <a href="#popup" class="seach" id="seach"><i class="fa fa-search"></i></a>
+                                            <div class="nav-cart">
+                                                <a href="./giohang.html" class="cart">
+                                                    <span class="text">Giỏ Hàng</span>
+                                                    <span class="cart-icon" id="carticon">0</span>
+                                                </a>
+
+                                                <div class="cart-list">
+                                                    <div class="list-product" id="minicart">
+
+                                                    </div>
+                                                    <button class="view-cart"><a href="../element/giohang.html">XEM GIỎ HÀNG</a></button>
+                                                    <button class="bill-product"><a href="#">THANH TOÁN</a></button>
+                                                </div>
+                                            </div>
+
+        </header>
+        <div class="container grid wide">
+            <div class="row">
+                <div class="col l-7 m-12">
+                    <div class="content">
+                        <div class="table">
+                            <div class="product-name">SẢN PHẨM</div>
+                            <div class="product-price">GIÁ</div>
+                            <div class="product-quanity">SỐ LƯỢNG</div>
+                            <div class="product-total">TẠM TÍNH</div>
+                        </div>
+                        <div id="cart">
+
+                        </div>
+
+                        <div class="active-clear">
+                            <div class="continue"><a href="../61HT.html">TIẾP TỤC XEM SẢN PHẨN</a></div>
+                            <button type="submit" class="update">CẬP NHẬT GIỎ HÀNG</button>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <h2>Bạn có thể thích...</h2>
+                        <div class="row">
+                            <div class="col l-3 m-3 xm-6 sm-6">
+                                <div class="onSale">
+                                    <span class="sale">-45%</span>
+                                </div>
+                                <a href="#"><img src="../images/giay-adidas-eqt-cushion-adv-9-600x600.jpg" alt="image"></a>
+                                <div class="text-box">
+                                    <div class="title-wrapper">EQT Cushion ADV</div>
+                                    <div class="price-wrapper"><span class="sale-off">4,000,000₫ </span> 2,199,000₫
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 xm-6 sm-6 c-12">
+                                <div class="onSale">
+                                    <span class="sale">-20%</span>
+                                </div>
+                                <a href="#"><img src="../images/CHECKERBOARD-SLIP-ON-600x600.jpg" alt="image"></a>
+                                <div class="text-box">
+                                    <div class="title-wrapper">Checkerboard Slip-On-White
+                                    </div>
+                                    <div class="price-wrapper"><span class="sale-off"> 1,199,000₫</span> 899,000₫
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 xm-6 sm-6 c-12">
+                                <div class="onSale">
+                                    <span class="sale">-10%</span>
+                                </div>
+                                <a href="#"><img src="../images/PLAYBALL-MONO-DENIM-NEW-YORK-YANKEES-32SHPM011-50U-7-600x600.jpg" alt="image"></a>
+                                <div class="text-box">
+                                    <div class="title-wrapper">Playball Mono Denim New York Yankees</div>
+                                    <div class="price-wrapper"><span class="sale-off">1,999,000₫ </span> 1,799,000₫
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 xm-6 sm-6 c-12">
+                                <div class="onSale">
+                                    <span class="sale">-40%</span>
+                                </div>
+                                <a href="#"><img src="../images/SL-72-SHOES-2-600x600.jpg" alt="image"></a>
+                                <div class="text-box">
+                                    <div class="title-wrapper">Adidas SL 72 Shoes</div>
+                                    <div class="price-wrapper"><span class="sale-off">2,499,000₫</span> 1,499,000₫
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col l-5 m-12">
+                    <div class="cart-collaterals">
+                        <div class="cart-sidebar">
+                            <div class="cart-total">
+                                <h4>CỘNG GIỎ HÀNG</h4>
+                                <div class="cart-sub">
+                                    <div class="product-title">Tạm tính</div>
+                                    <div class="data-title" id="tamtinh">0đ</div>
+                                    <p></p>
+                                </div>
+                                <div class="cart-transport">
+                                    <div class="product-title">Giao hàng</div>
+                                    <div class="data-title">Shipping costs are calculated during checkout.</div>
+                                    <p></p>
+                                </div>
+                                <div class="sum">
+                                    <div class="product-title">Tổng</div>
+                                    <div class="data-title" id="tongtien">0đ</div>
+                                    <p></p>
+                                </div>
+                                <a href="thanhtoan.html"> <button onclick="thanhtoan()">TIẾN HÀNH THANH TOÁN</button></a>
+                            </div>
+                            <div class="coupon">
+                                <h3><i class="fas fa-tag"></i> Phiên ưu đãi</h3>
+                                <input type="text" name="coupon_code" class="input-text" placeholder="Mã ưu đãi">
+                                <input type="submit" class="is-form" value="Áp dụng">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <a href="#seach" class="popup-close">&times;</a>
+                <span>
+                    <input type="text" placeholder="Tìm tên, mã sản phẩm tại đây">
+                    <a><i class="fa fa-search"></i></a>
+                </span>
+            </div>
+        </div>
+
+        <footer class="footer-wrapper grid wide">
+            <div class="row">
+                <div class="col l-4 m-4 xm-6 sm-6 c-12">
+                    <h4>THE SNEAKER HOUSE</h4>
+                    <span></span>
+                    <p>
+                        3 Đường Cầu Giấy <br> Láng Thượng <br> Cầu Giấy, Hà Nội <br> Hotline: 0902 920 670
+
+                    </p>
+                    <div class="follow-icon">
+                        <a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="ins"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="mail"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col l-4 m-4 xm-6 sm-6 c-12 info">
+                    <h4>THÔNG TIN</h4>
+                    <span></span>
+                    <p>
+                        Chính sách đổi trả<br> Chính sách vận chuyển<br> Chính sách bảo hành<br> Hình thức thanh toán <br> Hướng dẫn mua hàng <br> Thông tin bảo mật
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="footer-left"> 2021 TheSneakerHouse bảo lưu mọi quyền</div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/arrow.js"></script>
+    <script src="../js/number.js"></script>
+    <script type="text/javascript" src="../jquery/giohang.js"></script>
+
+</body>
+
+</html>

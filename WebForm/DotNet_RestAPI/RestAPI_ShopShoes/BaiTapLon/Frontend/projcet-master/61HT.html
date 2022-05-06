@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="861234090871-6gn5q0pd9vpp30g9hc8n19r4o0dficvh.apps.googleusercontent.com">
+    <link rel="icon" href="./images/icon.jpg" type="image/png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    
+
+    <title>The Sneaker House</title>
+
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- header -->
+        <header>
+            <a href="./61HT.html"><img class="logo" src="./images/Logo-TSH-240x90.png" alt="logo"></a>
+            <ul class="nav-bar">
+                <li>
+                    <a href="./element/sneaker.html">Sneaker<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-nav nav">
+                        <li>
+                            <ul>
+                                <li><a href="./element/adidas.html">ADIDAS</a></li>
+                                <li><a href="#">PUMA</a></li>
+                                <li><a href="./element/nike.html">NIKE</a></li>
+                                <li><a href="#">VANS</a></li>
+                                <li><a href="#">AIR MAX></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="./element/adidas.html"> COLLECTIONS</a></li>
+                                <li><a href="#">ULTRA BOOST</a></li>
+                                <li><a href="./element/nike.html">STAN SMITH</a></li>
+                                <li><a href="#">SUPERSTAR</a></li>
+                                <li><a href="#">NMD</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./element/accessories.html">accessories<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-nav nav-2">
+                        <li>
+                            <ul>
+                                <li><a href="#">VỚ</a></li>
+                                <li><a href="#">NÓN</a></li>
+                                <li><a href="#">PHỤ KIỆN</a></li>
+                                <li><a href="#">DÉP</a></li>
+                                <li><a href="#">BALO</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">TÚI XÁCH</a></li>
+                                <li><a href="#">YAMAMOTO</a></li>
+                                <li><a href="#">NEW BALANCE</a></li>
+                                <li><a href="#">CHÍNH HÃNG</a></li>
+                                <li><a href="#">FILA</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">CHÍNH HÃNG</a></li>
+                                <li><a href="#">YOHJI</a></li>
+                                <li><a href="#">ADIDAS</a></li>
+                                <li><a href="#">PHỤ KIỆN</a></li>
+                                <li><a href="#">YAMAMOTO</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./element/Clothing.html">clothing<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-nav nav-3">
+                        <li>
+                            <ul>
+                                <li><a href="#">ÁO KHOÁC</a></li>
+                                <li><a href="#">ÁO THUN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./element/sale-off.html">sale off</a></li>
+                <li><a href="./element/lienhe.html">LIÊN HỆ</a></li>
+            </ul>
+            <a href="#popup" class="search" id="search"><i class="fa fa-search"></i></a>
+
+            <!-- giỏ hàng -->
+            <div class="nav-cart" id="cart">
+                <a href="./element/giohang.html" class="cart">
+                    <span class="text">Giỏ Hàng</span>
+                    <span class="cart-icon" id="carticon">0</span>
+                </a>
+                <!-- khi chưa có sản phẩm -->
+                <!-- <div class="non-cart"><p>Chưa Có Sản Phẩm Trong Giỏ Hàng</p></div> -->
+                <!-- đã có  sản phẩm  -->
+                <div class="cart-list">
+                    <div class="list-product" id="minicart">
+                        <!-- <div class="mini-cart">
+                            <a href="./element/product1.html"><img src="./images/ULTRABOOST-20-SHOES-10-600x600.jpg" alt=""></a>
+                            <span class="text-large">Ultra Boost 20 x ISS NASA</span>
+                            <span class="text-small">3,999,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"><img src="./images/didas-Ultra-Boost-DNA-Multi-Color-5-600x600.jpg" alt=""></a>
+                            <span class="text-large">Ultra Boost DNA</span>
+                            <span class="text-small">1,999,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"><img src="./images/giay-nike-air-zoom-mariah-1-600x600.jpg" alt=""></a>
+                            <span class="text-large">Nike Air Jordan 1 Mid “South Beach”</span>
+                            <span class="text-small">4,999,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"> <img src="./images/FW6375-SL-7600-3-600x600.jpg" alt=""></a>
+                            <span class="text-large">ADIDAS SL 76000</span>
+                            <span class="text-small">1,499,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div>
+                        <div class="mini-cart">
+                            <a href="#"> <img src="./images/NMD_C2-SHOES-600x600.jpg" alt=""></a>
+                            <span class="text-large">NMD C2 Shoes</span>
+                            <span class="text-small">2,499,000₫</span>
+                            <span class="rules"></span>
+                            <span class="remove">&times;</span>
+                        </div> -->
+                    </div>
+                    <button class="view-cart"><a href="./element/giohang.html">XEM GIỎ HÀNG</a></button>
+                    <button class="bill-product"><a href="#">THANH TOÁN</a></button>
+                </div>
+            </div>
+
+            <!-- button menu -->
+
+            <div class="navigation">
+                <input type="checkbox" class="checkbox" id="navi-toggle">
+                <label for="navi-toggle" class="button">
+                    <span class="icon">&nbsp;</span>
+                </label>
+                <div class="navigation__nav">
+                    <ul class="list">
+                        <li class="navigation__item sch">
+                            <div>
+                                <span>
+                                    <input type="text" placeholder="Tìm tên, mã sản phẩm tại đây">
+                                    <a><i class="fa fa-search" id="fa-search"></i></a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">sneaker</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">ACCESSORIES</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">CLOTHING</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">SALE OFF</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">LIÊN HỆ</a></li>
+                    </ul>
+                    <button class="view-cart"><a href="#">GỌI HOTLINE</a></button>
+                    <button class="bill-product"><a href="#">GỬI TIN NHẮN</a></button>
+                </div>
+            </div>
+
+            <!-- tạo tài khoản -->
+            <div class="account">
+                <div class="account-form">
+                    <div>
+                        <h3 class="heading" id="log">Đăng nhập/ Đăng ký</h3>
+                        <div class="sign-in" id="sign-in1" style="height: 265px;">
+                            <button><a href="#form-element" id="sign-in">Đăng nhập</a></button>
+                            <button><a href="#form-element" id="sign-up">Tạo tài khoản</a></button>
+
+                            <button>
+                                <i class="fa fa-facebook"></i>
+                                <p>Đăng nhập bằng facebook</p>
+                            </button>
+                            <button>
+                                <i class="fa fa-google-plus"></i>
+                                <p>Đăng nhập bằng google</p>
+
+                            </button>
+                            <button style="background-color: cornflowerblue;"><a href="" id="logout" onClick="logout()">Đăng xuất</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        
+
+        <!-- phần content -->
+        <div class="content" id="content">
+            <div class="content-slider grid wide">
+                <div class=" row">
+                    <div>
+                        <div class="slider">
+                            <img class="picture" id="first" src="./images/header4.png" alt="picture">
+                            <img class="picture" src="./images/header1.png" alt="picture">
+                            <img class="picture" src="./images/header2.png" alt="picture">
+                            <img class="picture" src="./images/header3.png" alt="picture">
+                            <img class="picture" src="./images/header4.png" alt="picture">
+                            <img class="picture" id="last" src="./images/header1.png" alt="picture">
+                        </div>
+                        <div class="btn-auto">
+                            <button class="btn" id="next"><i class="fa fa-chevron-right"></i></button>
+                            <button class="btn" id="prev"><i class="fa fa-chevron-left"></i></button>
+                            <ul>
+                                <li class="option" option-index='0'></li>
+                                <li class="option" option-index='1'></li>
+                                <li class="option" option-index='2'></li>
+                                <li class="option" option-index='3'></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="row-banner  grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-6">
+                            <img class="img" src="./images/adidas.png" alt="image">
+                            <a href="./element/adidas.html"><span>shop now</span></a>
+                        </div>
+
+                        <div class="col l-6 m-6">
+                            <img class="img" src="./images/nike.png" alt="image">
+                            <a href="./element/nike.html"><span>shop now</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-bg grid wide">
+                    <div class="row no-gutters">
+                        <div class="col l-4 m-4 c-12 xm-4 product">
+                            <img class="img" src="./images/puma.jpg" alt="">
+                            <div class="text-banner">
+                                <div class="small-text">new arrivals</div>
+                                <div class="large-text"> PUMA</div>
+                            </div>
+                            <a href="#"><span>shop now</span></a>
+                        </div>
+                        <div class="col l-4 m-4 c-12 xm-4 product">
+                            <img class="img" src="./images/van.jpg" alt="">
+                            <div class="text-banner text-1">
+                                <div class="small-text">new arrivals</div>
+                                <div class="large-text"> VANS</div>
+                            </div>
+                            <a href="#"><span>shop now</span></a>
+                        </div>
+                        <div class="col l-4 m-4 c-12 xm-4 product">
+                            <img class="img" src="./images/aiRmax.jpg" alt="">
+                            <div class="text-banner text-2">
+                                <div class="small-text">new arrivals</div>
+                                <div class="large-text"> AIR MAX</div>
+                            </div>
+                            <a href="#"><span>shop now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new product -->
+            <div class="new-pt grid wide">
+                <div class="section-title">
+                    <h3 class="title">
+                        <b></b>
+                        <span class="title-main">Sản Phầm Mới</span>
+                        <b></b>
+                    </h3>
+                </div>
+                <div class="row" id="spnew">
+
+                </div>
+
+            </div>
+
+            <!-- product sale -->
+            <div class="product-small grid wide">
+                <div class="section-title-main">
+                    <h3 class="title">
+                        <b></b>
+                        <span class="title-main">Sale</span>
+                        <b></b>
+                    </h3>
+                </div>
+                <div class="row" id="allKH">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- phần tìm kiếm -->
+    <div class="popup" id="popup">
+        <div class="popup-content" id="pup-content">
+            <a href="#seach" class="popup-close" id="popup-close">&times;</a>
+            <span>
+                <input name="search" type="text" placeholder="Tìm tên, mã sản phẩm tại đây" id="input">
+                <a><i class="fa fa-search" id="fa-search"></i></a>
+            </span>
+        </div>
+    </div>
+
+    <!-- phần tạo tài khoản -->
+    <div class="form-element" id="form-element">
+        <form class="form" id="form">
+            <div class="heading-form">
+                <a href="#" class="form-close">&times;</a>
+                <h3 id="form-sign">Đăng nhập</h3>
+                <h3 id="create">Tạo tài khoản</h3>
+            </div>
+            <div id="form-1">
+                <div class="group">
+                    <div class="form__group">
+                        <div>
+                            <label for="full-name" class="form__label">SĐT/Tài khoản</label>
+                            <input id="full-name" type="phone" class="form__input" placeholder="Nhập số điện thoại" required>
+                        </div>
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form__group">
+                        <div>
+                            <label for="password" class="form__label">Mật Khẩu</label>
+                            <input id="password" type="password" class="form__input" required>
+                        </div>
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="mk">
+                        <p>Quê mật khẩu? <a href="#"> Nhấn vào đây</a></p>
+                    </div>
+                    <div class="form__group button">
+                        <div>
+                            <button id="log-in" onclick="login()">Đăng nhập</button>
+                            <div id="error-message"></div>
+                        </div>
+
+
+                 
+
+
+                        <br />
+                        <div class="g-signin2" data-onsuccess="onSignIn" data-width="500" data-height="50" data-longtitle="true" style="margin-left : 90px;text-align: center"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="form-2">
+                <div class="form__group">
+                    <label for="name-1" class="form__label">Họ Tên</label>
+                    <input id="name-1" type="text" class="form__input" placeholder="Nhập Họ Và Tên" required>
+                </div>
+                <div class="form__group">
+                    <label for="SĐT" class="form__label">SĐT</label>
+                    <input id="SĐT" type="text" class="form__input" placeholder="Nhập Số Điện Thoại" required>
+                </div>
+                <div class="form__group">
+                    <label for="email" class="form__label">Email</label>
+                    <input id="email" name="email" type="text" placeholder="email" class="form-control">
+                </div>
+
+                <div class="form__group">
+                    <label for="password-1" class="form__label">Mật khẩu</label>
+                    <input id="password-1" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                </div>
+                <div>Giới tính</div>
+                <div class="center">
+                    <input type="radio" name="gender" id="male">
+                    <label>Nam</label>
+                    <input type="radio" name="gender" id="female">
+                    <label>Nữ</label>
+                    <input type="radio" name="gender" id="other">
+                    <label>Khác</label>
+                </div>
+                <div><span class="check"></span></div>
+                <div class="form__group date">
+                    <p>Ngày sinh</p>
+                    <input type="date" name="ngaysinh" id="ngaysinh">
+                </div>
+                <div class="form__group check">
+                    <input type="checkbox" name="check" id="form-check">
+                    <label for="form-check" class="checked">
+                        Nhận các thông tin và chương trình khuyến mãi của shop
+                        qua email
+                    </label>
+                </div>
+                <div class="form__group button-2">
+                    <button>Tạo tài khoản</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <!-- phần footer -->
+    <footer class="footer-wrapper grid wide">
+        <div class="row">
+            <div class="col l-4 m-4 xm-6 sm-6 c-12">
+                <h4>THE SNEAKER HOUSE</h4>
+                <span></span>
+                <p>
+                    3 Đường Cầu Giấy <br> Láng Thượng <br> Cầu Giấy, Hà Nội <br> Hotline: 0902 920 670
+                </p>
+                <div class="follow-icon">
+                    <a href="https://www.facebook.com/" class="fb"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="ins"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.gmail.com/" class="mail"><i class="fa fa-envelope-o"></i></a>
+                </div>
+            </div>
+            <div class="col l-4 m-4 xm-6 sm-6 c-12 info">
+                <h4>THÔNG TIN</h4>
+                <span></span>
+                <p>
+                    Chính sách đổi trả<br> Chính sách vận chuyển<br> Chính sách bảo hành<br> Hình thức thanh toán <br> Hướng dẫn mua hàng <br> Thông tin bảo mật
+                </p>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="footer-left"> 2021 TheSneakerHouse bảo lưu mọi quyền</div>
+        </div>
+        <div class="payment">
+            <div><i class="fa fa-credit-card-alt" aria-hidden="true"></i></div>
+            <div><i class="fa fa-cc-visa" aria-hidden="true"></i></div>
+            <div><i class="fa fa-cc-mastercard" aria-hidden="true"></i></div>
+        </div>
+    </footer>
+    </div>
+    </div>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/sign-in.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="jquery/home.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="js/Login.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+</body>
+</head>
+
+
+</html>

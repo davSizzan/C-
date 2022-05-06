@@ -1,0 +1,103 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="line"></div>
+<p style="font-weight: bold;">Thống kê hôm nay</p>
+<div class="Cart">
+
+    <div class="it">
+        <div><i class="fas fa-shopping-cart"></i> </div>
+
+        <div class="it1">
+            <a href="/Admin/Order">
+                <p>Đặt hàng (@ViewBag.SLDatHangNgay) </p>
+                <br>
+                <p>@ViewBag.TongTienNgay đ</p>
+            </a>
+        </div>
+    </div>
+    <div class="it">
+        <div><i class="fa fa-credit-card"></i> </div>
+
+        <div class="it1">
+            <p>Thanh toán (@ViewBag.SoLuongThanhToanNgay)</p>
+            <br>
+            <p>@ViewBag.TongTienThanhToanNgay đ</p>
+        </div>
+    </div>
+    <div class="it">
+        <div><i class="fa-solid fa-money-bill-1"></i> </div>
+
+        <div class="it1">
+            <p>Hoàn tiền(@ViewBag.SLHoanTienNgay)</p>
+            <br>
+            <p> @ViewBag.HoanTienNgay đ</p>
+        </div>
+    </div>
+</div>
+<div class="line"></div>
+<p style="font-weight: bold;">Tuần này</p>
+<div class="Cart">
+    <div class="it">
+        <div><i class="fas fa-shopping-cart"></i> </div>
+
+        <div class="it1">
+            <p>Đặt hàng(@ViewBag.SlDatHangTuan)</p>
+            <br>
+            <p>@ViewBag.TongTienTuan đ</p>
+        </div>
+    </div>
+    <div class="it">
+        <div><i class="fa fa-credit-card"></i> </div>
+
+        <div class="it1">
+            <p>Thanh toán(@ViewBag.SLThanhToanTuan)</p>
+            <br>
+            <p>@ViewBag.TongTienThanhToanTuan đ</p>
+        </div>
+    </div>
+    <div class="it">
+        <div><i class="fa-solid fa-money-bill-1"></i> </div>
+
+        <div class="it1">
+            <p>Hoàn tiền(@ViewBag.SLHoanTienTuan)</p>
+            <br>
+            <p>@ViewBag.HoanTienTuan đ</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="line"></div>
+<p style="font-weight: bold;">Tháng này</p>
+<div class="Cart">
+    <div class="it">
+        <div><i class="fas fa-shopping-cart"></i> </div>
+
+        <div class="it1">
+            <p>Đặt hàng(0)</p>
+            <br>
+            <p>0d</p>
+        </div>
+    </div>
+    <div class="it">
+        <div><i class="fa fa-credit-card"></i> </div>
+
+        <div class="it1">
+            <p>Thanh toán(0)</p>
+            <br>
+            <p>0d</p>
+        </div>
+    </div>
+    <div class="it">
+        <div><i class="fa-solid fa-money-bill-1"></i> </div>
+
+        <div class="it1">
+            <p>Hoàn tiền(0)</p>
+            <br>
+            <p>0d</p>
+        </div>
+    </div>
+</div>
+

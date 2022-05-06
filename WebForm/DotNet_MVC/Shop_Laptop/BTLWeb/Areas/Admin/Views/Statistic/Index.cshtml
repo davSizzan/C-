@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<br />
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">Trang chủ</li>
+        <li class="breadcrumb-item active" aria-current="page">Thống kê</li>
+        <li class="breadcrumb-item active" aria-current="page">Doanh thu</li>
+    </ol>
+</nav>
+<div>
+    <h1 style="text-align: center;font-weight: bold;">Biểu đồ thống kê theo tháng</h1>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script>
+
+    const labels = [
+        'Tháng 1',
+        'Tháng 2',
+        'Tháng 3',
+        'Tháng 4',
+        'Tháng 5',
+        'Tháng 6',
+        'Tháng 7',
+        'Tháng 8',
+        'Tháng 9',
+        'Tháng 10',
+        'Tháng 11',
+        'Tháng 12'
+    ];
+
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Thu nhập',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45, 50, 60, 80, 65, 50],
+        }]
+    };
+    const config = {
+        type: 'line',
+        data: data,
+        options: {}
+    };
+    const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+</script>
